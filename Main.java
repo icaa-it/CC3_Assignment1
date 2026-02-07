@@ -28,6 +28,7 @@ public class Main {
             case 2:
                 break;
             case 3:
+                result = a * b;
                 break;
             case 4:
                 break;
