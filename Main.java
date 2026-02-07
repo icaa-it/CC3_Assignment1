@@ -23,7 +23,7 @@ public class Main {
         double result = 0;
 
         switch (choice) {
-            case 1:
+            case 1: result = a + b;
                 break;
             case 2:
                 break;
