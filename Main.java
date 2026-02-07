@@ -31,6 +31,12 @@ public class Main {
                 result = a * b;
                 break;
             case 4:
+                if (b != 0) {
+                    result = a / b;
+                } else {
+                    System.out.println("Cannot divide by zero.");
+                    return;
+                }
                 break;
             default:
                 System.out.println("Invalid choice.");
