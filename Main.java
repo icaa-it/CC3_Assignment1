@@ -36,11 +36,13 @@ public class Main {
                     result = a / b;
                 } else {
                     System.out.println("Cannot divide by zero.");
+                    sc.close();
                     return;
                 }
                 break;
             default:
                 System.out.println("Invalid choice.");
+                sc.close();
                 return;
         }
 
